@@ -1,0 +1,157 @@
+!SESSION 2020-04-08 23:18:49.558 -----------------------------------------------
+eclipse.buildId=4.13.0.I20190916-1045
+java.version=1.8.0_231
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.jface 2 0 2020-04-08 23:20:00.613
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-08 23:20:00.613
+!MESSAGE A conflict occurred for ALT+SHIFT+X G:
+Binding(ALT+SHIFT+X G,
+	ParameterizedCommand(Command(org.codehaus.groovy.eclipse.groovyScriptLaunchShortcut.run,Run Groovy Script,
+		Run Groovy Script,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e357792,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X G,
+	ParameterizedCommand(Command(org.testng.eclipse.shortcut.testngSuite.run,Run TestNG Suite,
+		Run TestNG Suite,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@50734cea,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2020-04-08 23:20:00.613
+!MESSAGE A conflict occurred for ALT+SHIFT+D G:
+Binding(ALT+SHIFT+D G,
+	ParameterizedCommand(Command(org.codehaus.groovy.eclipse.groovyScriptLaunchShortcut.debug,Debug Groovy Script,
+		Debug Groovy Script,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4e6280de,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D G,
+	ParameterizedCommand(Command(org.testng.eclipse.shortcut.testngSuite.debug,Debug TestNG Suite,
+		Debug TestNG Suite,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2fca282c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2020-04-08 23:20:18.924
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2020-04-08 23:44:54.634
+!MESSAGE HTTP Remote File Permanently Removed: http://beust.com/eclipse/content.xml
+!STACK 1
+org.eclipse.ecf.filetransfer.BrowseFileTransferException: HttpComponents connection error response code 410.
+	at org.eclipse.ecf.provider.filetransfer.httpclient45.HttpClientFileSystemBrowser.runRequest(HttpClientFileSystemBrowser.java:276)
+	at org.eclipse.ecf.provider.filetransfer.browse.AbstractFileSystemBrowser$DirectoryJob.run(AbstractFileSystemBrowser.java:69)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.ecf.identity 4 0 2020-04-08 23:44:54.769
+!MESSAGE HttpComponents connection error response code 410.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-04-08 23:47:00.360
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-04-08 23:47:00.360
+!MESSAGE session context was:(profile=C__Users_Dell_eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.360
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.360
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.ant,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.360
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.astviews,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.361
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.codeassist,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.361
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.codebrowsing,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.361
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.compilerResolver,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.core,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.dsl,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.quickfix,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.refactoring,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.ui,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.core,3.19.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.groovy.core,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy,2.4.19.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy,2.5.10.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.compilerless.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.eclipse.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.headless.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.jdt.patch,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy24.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.362
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy25.feature,3.8.0.v202004071748-e1909
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2020-04-08 23:47:00.378
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2020-04-08 23:47:00.378
+!MESSAGE session context was:(profile=C__Users_Dell_eclipse_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.378
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.378
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.ant,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.378
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.astviews,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.378
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.codeassist,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.378
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.codebrowsing,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.compilerResolver,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.core,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.dsl,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.quickfix,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.refactoring,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy.eclipse.ui,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.core,3.19.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jdt.groovy.core,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy,2.4.19.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: osgi.bundle,org.codehaus.groovy,2.5.10.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.compilerless.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.eclipse.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.headless.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy.jdt.patch,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy24.feature,3.8.0.v202004071748-e1909
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2020-04-08 23:47:00.379
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.codehaus.groovy25.feature,3.8.0.v202004071748-e1909

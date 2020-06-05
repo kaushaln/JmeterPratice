@@ -1,0 +1,27 @@
+package com.seljmeterprac;
+
+import org.junit.jupiter.api.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class sample {
+
+	@Test
+	public void LaunchWebSite() {
+		
+		System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"/drivers/geckodriver.exe");
+		WebDriver driver = new FirefoxDriver();
+		driver.manage().window().maximize();
+		driver.get("https://www.google.com/");
+		WaitFor(3000);
+		driver.close();
+	}
+	
+	public void WaitFor(long waitAmt) {
+		try {
+			Thread.sleep(waitAmt);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}

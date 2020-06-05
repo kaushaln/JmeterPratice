@@ -1,0 +1,9 @@
+package com.seljmeterprac;
+
+public class sample {
+
+	
+	public void LaunchWebSite() {
+		
+	}
+}

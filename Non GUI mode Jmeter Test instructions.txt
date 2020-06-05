@@ -1,0 +1,7 @@
+1) Put the .jmx file in the bin directory of jmeter
+2) navigate to bin directory using cmd and execute jmeter -n -t <jmeter project file name.jmx> -l <Report file name.jtl>
+3) once execution gets finished then execute jmeter -g <Report file name.jtl> -o <foldername>
+
+
+Reference link : 
+https://focusaps.com/2019/08/29/guide-for-jmeter-and-taurus/

@@ -1,0 +1,17 @@
+package com.seljmeterprac;
+
+public class sample {
+
+	
+	public void LaunchWebSite() {
+		
+	}
+	
+	public void WaitFor(long waitAmt) {
+		try {
+			Thread.sleep(waitAmt);
+		}catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+}
